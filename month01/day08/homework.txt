@@ -1,0 +1,64 @@
+作业
+1. 当天练习独立完成
+2. 参照下列代码,定义函数,计算社保缴纳费用.
+    salary_before_tax = float(input("请输入税前工资："))
+    social_insurance = salary_before_tax * (0.08 + 0.02 + 0.002 + 0.12) + 3
+    print("个人需要缴纳社保费用：" + str(social_insurance))
+
+3. 参照下列代码,定义函数,计算折扣.
+    account_type = input("请输入账户类型：")
+    money = float(input("请输入消费金额："))
+    if account_type == "vip":
+        if money < 500:
+            print("享受85折扣")
+        else:
+            print("享受8折扣")
+    else:
+        if money > 800:
+            print("享受9折扣")
+        else:
+            print("原价购买")
+
+4.定义函数,在列表中获取最小值
+    list01 = [170, 160, 180, 165]
+    min_value = list01[0]
+    for i in range(1, len(list01)):
+        if min_value > list01[i]:
+            min_value = list01[i]
+    print(min_value)
+
+5.创建函数,根据年龄计算人生阶段
+    age = int(input("请输入年龄："))
+    if age <= 6:
+      print("童年")
+    elif age <= 17: # 程序能执行到本行,说明age一定大于6
+      print("少年")
+    elif age <= 40:
+      print("青年")
+    elif age <= 65:
+      print("中年")
+    else:
+      print("老年")
+
+6. 通过函数实现下列功能
+# 员工列表(员工编号 部门编号 姓名 工资)
+dict_employees = {
+    1001: {"did": 9002, "name": "师父", "money": 60000},
+    1002: {"did": 9001, "name": "孙悟空", "money": 50000},
+    1003: {"did": 9002, "name": "猪八戒", "money": 20000},
+    1004: {"did": 9001, "name": "沙僧", "money": 30000},
+    1005: {"did": 9001, "name": "小白龙", "money": 15000},
+}
+
+# 部门列表
+list_departments = [
+    {"did": 9001, "title": "教学部"},
+    {"did": 9002, "title": "销售部"},
+    {"did": 9003, "title": "品保部"},
+]
+1. 定义函数,打印所有员工信息,
+格式：xx的员工编号是xx,部门编号是xx,月薪xx元.
+2. 定义函数,打印所有月薪大于2w的员工信息,
+格式：xx的员工编号是xx,部门编号是xx,月薪xx元.
+3. 定义函数,在部门列表中查找编号最小的部门
+4. 定义函数,根据部门编号对部门列表降序排列

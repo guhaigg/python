@@ -1,0 +1,22 @@
+作业
+1. 当前练习独立完成
+2. 使用IterableHelper类,实现下列功能
+class Commodity:
+    def __init__(self, cid=0, name="", price=0):
+        self.cid = cid
+        self.name = name
+        self.price = price
+
+list_commodity_infos = [
+    Commodity(1001, "屠龙刀", 10000),
+    Commodity(1002, "倚天剑", 10000),
+    Commodity(1003, "金箍棒", 52100),
+    Commodity(1004, "口罩", 20),
+    Commodity(1005, "酒精", 30),
+]
+-- 在商品列表中获取单价最小的商品
+-- 根据单价对商品列表降序排列
+
+2. 完成MVC版2048
+    -- 将核心算法改为核心类(全局变量->实例变量,函数->实例方法)
+    -- 创建界面视图类(以表格打印map,根据wsad调用上下左右移动函数)

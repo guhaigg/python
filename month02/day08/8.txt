@@ -1,0 +1,112 @@
+前情回顾
+
+1. 聚合
+
+聚合函数： avg()  sum() max() count()..
+聚合分组： group by
+聚合筛选： having
+去重 ： distinct
+
+2. 索引 ： 提高查询效率
+
+   普通  唯一  主键
+
+   create unique index [名字] on tb[col];
+   drop index ....
+   show create table [tb];
+
+3. 外键约束
+
+   为了防止数据冗余许多有关系的数据需要分表存储，在
+   利用关系字段表达表关系时产生不合理的非法数据
+
+   constraint [名字]
+   foreign key (外键字段)
+   references 主表(主键)
+   级联动作
+
+   删除： alter table [tb] drop foreign key(名);
+
+4.  表关联关系
+  一对多
+  多对多
+  E-R
+
+
+cookie: 多张表 (>2) 连接
+
+select * from
+A left join B on A.id=B.a_id
+left join C on C.id = A.c_id
+left .....
+where ..
+
+
+练习： 多表连接查询  exercise
+
+class 1     student 多
+teacher  1     course 多
+
+score --》 student 多   course 多
+
+create table class(cid int primary key auto_increment,caption char(4) not null);
+
+create table teacher(tid int primary key auto_increment,tname varchar(32) not null);
+
+create table student(sid int primary key auto_increment,
+                    sname varchar(32) not null,
+                    gender enum('male','female','others') not null default 'male',
+                    class_id int,
+                    foreign key(class_id) references class(cid)
+                     on update cascade on delete cascade);
+
+create table course(cid int primary key auto_increment,
+                   cname varchar(16) not null,
+                   teacher_id int,
+                   foreign key(teacher_id) references teacher(tid)
+                    on update cascade on delete cascade);
+
+create table score(sid int primary key auto_increment,
+                  student_id int,
+                  course_id int,
+                  number int(3) not null,
+                  foreign key(student_id) references student(sid)
+                   on update cascade on delete cascade,
+                   foreign key(course_id) references course(cid)
+                   on update cascade on delete cascade);
+
+insert into class(caption) values('三年一班'),('三年二班'),('三年三班');
+insert into teacher(tname) values('魏老师'),('祁老师'),('小泽老师');
+insert into student(sname,gender,class_id) values('钢蛋','female',1),('铁锤','female',1),('山炮','male',2),('彪哥','male',3),('虎子','male',3),('妞妞','female',2),('建国','male',2);
+insert into course(cname,teacher_id) values('生物',1),('体育',1),('物理',2);
+insert into score(student_id,course_id,number) values(1,1,60),(1,2,59),(2,2,100),(3,2,78),(4,3,66),(2,3,78),(5,2,77),(6,1,84),(7,1,79),(5,3,80),(3,1,59);
+
+1. 查询每位老师教授的课程数量
+2. 查询各科成绩最高和最低的分数,
+形式 : 课程ID  课程名称 最高分  最低分
+3. 查询平均成绩大于85分的所有学生学号,
+姓名和平均成绩
+4. 查询课程编号为2且课程成绩在80以上的学生学号和姓名
+5. 查询各个课程及相应的选修人数
+6. 查询每位学生的姓名，所在班级和各科平均成绩
+
+总结：
+1. 多表查询 （重点）
+2. 视图
+3. 函数和存储过程
+
+
+作业： 1. 查询练习自己巩固
+      2. 写一个函数，传入一本数的名字，返回书的价格
+         写一个存储过程，传入一个作者名字
+         将该作者所有图书涨价5员，将比该作者做高价格
+         的书还高的图书删除掉
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+前情回顾
+
+1. 表连接查询
+
+   tb1 inner join tb2 on ....
+   tb1 left join tb2 on ....
+   tb1 right join tb2 on ....
+
+2. 视图
+   作用 ： 数据安全  数据整理   简化操作
+
+   create view
+   drop view
+   alter view
+
+3. 函数和存储过程
+   函数： 有返回值  参数只有普通的  多用于其他语句中
+   存储过程： 没返回值  多种类型参数  单独调用
+
+   delimiter  $$
+
+   create function func() returns  val
+   begin
+       declare a int;
+       .....
+   end
+
+   create procedure func()
+   begin
+       declare a int;
+       .....
+   end
+
+
+总结　：　
+1. 事务　
+2. 数据库优化
+3. 数据库配置和备份
+
+作业： 1. 总结数据库语句
+      2. 自我检查函数和类
+
+
+
+
+
+
+
+

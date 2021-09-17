@@ -1,0 +1,67 @@
+前情回顾
+
+1. os
+   os.path.getsize()
+   os.listdir()
+   os.path.exists()
+   os.remove()
+
+2. 正则表达式
+
+   字串--》描述规则--》匹配一类字符串
+
+3. 元字符
+
+   匹配字符  匹配重复  匹配位置  其他
+
+4. 匹配规则
+
+   特殊字符--》 \$
+   贪婪和非贪婪--》 * --> *?
+   分组 --》 ()
+
+5. re 模块
+
+   re.findall()  re.split()  re.sub()
+   re.finditer() re.match()  re.search()
+
+
+练习 ： 建库建表
+创建一个数据库 exercise 设置为utf8格式
+在该数据库下创建一张数据表 books
+字段如下：
+id   bname   author(作者)  press(出版社)
+
+price  comment(备注)
+
+数据类型和约束自己拟定
+
+
+cookie:
+  DDL (数据定义语句): create  drop  alter
+  DML (数据操作语句): insert  delete update
+  DQL (数据查询语句): select  where having group by
+  DCL (数据控制语句): grant  revoke
+
+
+知识点总结：
+1. 数据库认知
+2. MySQL 特征操作   启动  连接  安装
+3. 建库建表
+4. 增
+
+作业： 1. 将当天的语句练习一遍
+      2. 使用books完成，在该表中插入若干数据 >=6
+
+         人民教育  机械工业  中国文学
+
+         price  30-120
+
+      3. 学生管理系统
+
+
+
+
+
+
+

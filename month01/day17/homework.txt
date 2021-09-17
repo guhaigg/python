@@ -1,0 +1,47 @@
+作业
+1. 使用IterableHelper对商品列表实现如下操作
+    --查找所有商品名称和单价
+    --查找单价大于等于10000的所有商品
+    --查找商品编号是1003的商品对象
+    --删除名称是3个字的所有商品
+    --查找商品编号大于1003的商品数量
+
+class Commodity:
+    def __init__(self, cid, name="", price=0):
+        self.cid = cid
+        self.name = name
+        self.price = price
+
+list_commodity_infos = [
+    Commodity(1001, "屠龙刀", 10000),
+    Commodity(1002, "倚天剑", 10000),
+    Commodity(1003, "金箍棒", 52100),
+    Commodity(1004, "口罩", 20),
+    Commodity(1005, "酒精", 30),
+]
+
+2. (选做)2048
+--向上移动函数
+    矩阵转置 --> 向左移动 --> 矩阵转置
+
+--向下移动函数
+    矩阵转置 --> 向右移动 --> 矩阵转置
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

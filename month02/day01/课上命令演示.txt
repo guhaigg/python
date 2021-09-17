@@ -1,0 +1,155 @@
+第一部分基础命令演示:
+
+  458  ls -l month01
+  459  ls month01
+  460  ls -l month01
+  461  ls
+  462  man ls
+  463  cd stage02/day01/
+  464  ls -l
+  465  cd 
+  466  ls -l
+  467  cd - 
+  468  ls -l
+  469  ls -a
+  470  ls
+  471  ls -a
+  472  ls -l -a
+  473  ls -la
+  474  pwd
+  475  cd 
+  476  pwd
+  477  ls
+  478  cd stage02/day01
+  479  ls
+  480  cd
+  481  cd /etc
+  482  ls
+  483  cd 
+  484  cd -
+  485  cd stage02/day01/
+  486  ls
+  487  touch file.txt hello.py
+  488  ls
+  489  mkdir dir1 dir2
+  490  ls
+  491  ls -a
+  492  rm file.txt  .文本文件.txt 
+  493  ls -a
+  494  rm -r dir2
+  495  ls
+  496  cp hello.py 1.txt  dir1
+  497  ls
+  498  ls dir1
+  499  cp dir1 ..
+  500  cp -r dir1  ..
+  501  ls ..
+  502  ls
+  503  mv hello.py  dir1
+  504  ls
+  505  mv dir1/hello.py  .
+  506  ls
+  507  mv ../dir1   /home/tarena
+  508  ls
+  509  cp hello.py  hi.py
+  510  ls
+  511  mv hi.py a.py
+  512  ls
+  513  rm -r /home/tarena/dir1
+  514  ls /home/tarena
+  515  cp -r /home/tarena/2106 .
+  516  ls
+  517  rm -r 2106
+  518  ls
+  519  touch author_0078334.txt
+  520  ls
+  521  cp author_0078334.txt dir1
+  522  ls
+  523  rm author_0078334.txt 
+  524  ls
+  525  touch file_1.txt file_2.txt file_a.py file_test.py  file_.c
+  526  ls
+  527  cp *.txt dir1
+  528  ls dir1
+  529  cp ?.py dir1
+  530  ls
+  531  ls dir1
+  532  ls
+  533  rm file_?.py
+  534  ls
+  535  rm file_[12].txt
+  536  ls
+  537  rm file_.c 
+  538  ls
+  539  touch 1.py
+  540  ls
+  541  touch b.py c.py
+  542  ls
+  543  rm [a-z].py
+  544  ls
+  545  rm file_test.py 1.py 
+  546  ls
+  547  history 150 > 课上命令演示.txt
+
+第二部分文件信息查看命令演示:
+
+  548  ls
+  549  cat 1.txt
+  550  head 1.txt
+  551  head -5 1.txt
+  552  tail -5 1.txt
+  553  ls
+  554  grep "Hello" hello.py 
+  555  grep -i "Hello" hello.py 
+  556  grep -n "Hello" hello.py 
+  557  cd
+  558  ls
+  559  find month01 -name demo09.py
+  560  cd -
+  561  ls
+  562  wc hello.py 
+  563  wc -l hello.py 
+  564  wc -w hello.py 
+  565  wc -c hello.py 
+  566  cd 
+  567  cd -
+  569  ls /usr/bin
+  570  ls /usr/bin|grep "python3"
+  571  ls /usr/bin
+  572  ls /usr/bin | grep "python3.6"
+  573  ls /etc
+  574  ls /etc | wc -w
+  575  ls | wc -w
+  576  ls
+  577  history 60 >> 课上命令演示.txt 
+
+第三部分 压缩解压命令 :
+
+  578  ls
+  579  zip file.zip *.txt 
+  580  ls
+  581  zip -r dir.zip dir1
+  582  ls
+  583  unzip file.zip 
+  584  ls
+  585  unzip -d ..  dir.zip 
+  586  man tar
+  587  ls
+  588  tar -cjf file.tar.bz2 1.txt hello.py 
+  589  ls
+  590  tar -czf file.tar.gz 1.txt hello.py 
+  591  ls
+  592  tar -xvf file.tar.bz2 
+  593  cd 
+  594  ls
+  595  zip -r qtx.zip month01
+  596  ls
+  597  tar -cjf myself.tar.bz2 2106/
+  598  ls
+  599  mv qtx.zip myself.tar.bz2  文档
+  600  zip -r qtx.zip
+  601  zip -r q
+  602  grep -i
+  603  grep -i "hello"
+  604  cd -
+  605  history 50 >> 课上命令演示.txt 

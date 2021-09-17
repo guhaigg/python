@@ -1,0 +1,110 @@
+第四部分 权限管理命令:
+
+  612  touch file.txt
+  613  sudo touch file.txt
+  614  ls
+  615  rm file.txt 
+  616  ls
+  617  sudo rm file.txt 
+  618  ls
+  619  cd 
+  620  cd stage02/day02
+  621  ls -l
+  622  ls
+  623  chmod a-w 2.txt 
+  624  ls -l
+  625  chmod a-r 2.txt 
+  626  ls -l
+  627  chmod a+r 2.txt 
+  628  chmod u+w 2.txt 
+  629  chmod 666 2.txt 
+  630  ls -l
+  631  history 20 >> 课上命令演示.txt
+
+第五部分 展示显示命令:
+
+  632  ls
+  633  echo "Hello world"
+  634  date
+  635  whoami
+  636  df -Th
+  637  df -Th | grep "ext4"
+  638  history 10
+  639  ls
+  640  ls -l
+  641  ls -l > file.txt
+  642  ls
+  643  date > file.txt 
+  644  whoami >> file.txt 
+  645  date > my.log
+  646  whoami >> my.log 
+  647  echo "" >> my.log 
+  648  ls -l >> my.log 
+  649  ls
+  650  history 50 >> 课上命令演示.txt 
+
+其他命令:
+  651  shutdown +5
+  652  shutdown -c
+  653  cd 
+  654  cd -
+  655  ls
+  656  python3 hello.py 
+  657  pwd
+  658  cd 
+  659  ln -s /home/tarena/stage02/day02/hello.py  hello
+  660  ls
+  661  python3 hello
+  662  cd -
+  663  pwd
+  664  cd ..
+  665  cd stage02/
+  666  tree
+  667  cd day02
+  668  history 20 >> 课上命令演示.txt 
+  654  shutdown -c
+  655  cd 
+  656  cd -
+  657  ls
+  658  python3 hello.py 
+  659  pwd
+  660  cd 
+  661  ln -s /home/tarena/stage02/day02/hello.py  hello
+  662  ls
+  663  python3 hello
+  664  cd -
+  665  pwd
+  666  cd ..
+  667  cd stage02/
+  668  tree
+  669  cd day02
+  670  history 20 >> 课上命令演示.txt 
+
+用户创建部分:
+
+  726  cd 
+  727  groupadd aid
+  728  sudo groupadd aid
+  729  sudo groupdel aid
+  730  ls -l
+  731  sudo useradd -m aid
+  732  sudo passwd aid
+  733  sudo vi /etc/sudoers
+  734  sudo ls
+  735  ls
+  736  sudo vi /etc/passwd
+  737  ls /home
+  738  sudo userdel -r aid
+
+软件安装部分
+  739  sudo apt update
+  740  sudo apt install sl
+  741  sl
+  742  sudo apt remove --purge sl
+  743  sl
+  744  cd /var/cache/apt/archives
+  745  ls
+  746  sudo apt clean
+  sudo dpkg -i  youdao-dict xxxx
+  sudo apt --fix-broken install
+  sudo dpkg -P  qqlinux

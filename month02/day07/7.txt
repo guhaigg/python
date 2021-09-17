@@ -1,0 +1,90 @@
+前情回顾
+
+1. 查 改 删
+  select  -->  where   算数   逻辑   比较
+  update [tb] set col=val,... where ...
+  delete from [tb] where.....
+
+2. alter 修改表结构
+    alter table [tb] add/drop/modify/change
+
+3. 时间日期类型
+
+   datetime  date  time  year timestamp
+
+4. 高级查询语句
+
+   模糊查询： like
+   重命名 ： as
+   排序 ： order by .. desc
+   限制（分页）: limite ... offset
+   联合查询 : select .. union all  select...
+   子查询 ： (select...)-->from   where...
+
+5. 聚合操作
+
+   聚合函数 ： avg()  max()  min()  sum() count()
+             select  avg()  from .. where ..
+
+
+练习： 聚合操作  books 表
+1. 统计每位作家出版图书的平均价格
+2. 统计每个出版社出版图书数量
+3. 统计同一时间出版图书的最高价格和最低价格
+4. 筛选出那些出版过超过50元图书的出版社，
+并按照其出版图书的平均价格降序排序
+
+
+
+表关系建立过程
+
+多个字段内容放在一张表 --》有数据冗余
+将内容拆分为多张表 --》 表达表关系
+建立关系字段 --》 关系字段无约束，随意填写
+建立外键约束
+
+
+
+思考 下列内容怎么存
+
+用户名 密码 电话 图片 内容 地址 时间 评论 点赞
+
+表关系设计练习：
+根据所学 用户朋友圈表内容表，使其合理，假设现有如下
+内容需要存储：
+姓名    密码      电话
+user   passwd    tel
+
+图片     内容      地点   时间
+image   content  site  time
+
+点赞   评论
+like  comment
+
+
+内容总结：
+1. 聚合操作 ： group by
+2. 索引  ： 概念   优缺点
+3. 外键约束
+表关联关系
+4. 一对多，
+多对多关系
+
+作业 ： 1. 练习今天的语句
+       2. 基于books表
+         将该表拆分为三个实体存储
+         分别是： 图书   出版社   作家
+         设计三张表的字段，并设计表关系
+         通过E-R 图表达出来，然后建立之
+为了防止数据冗余许多有关系的数据需要分表存储，再利用关系字段表达表关系时产生的不合理的非法数据。
+constraint 名字
+foreign key （外键字段）
+references （主表）主键
+级联动作
+删除
+
+
+
+
+
+

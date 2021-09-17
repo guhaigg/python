@@ -1,0 +1,35 @@
+随堂练习
+绝对路径表达:month01下的day02中的homework.txt
+
+/home/tarena/month01/day02/homework.txt
+
+
+相对路径表达:month01下的day02中的homework.txt
+工作位置: 主目录的文档文件夹下
+
+../month01/day02/homework.txt
+
+
+统计 /etc 下有多少个文件
+
+ls /etc | wc -w
+
+
+将第一阶段中老师给的代码文件夹压缩为 qtx.zip
+自己的代码压缩为 bz2格式
+将所有的压缩包移动到主目录中的文档目录下
+
+zip -r qtx.zip month01
+tar -cjf myself.tar.bz2  yourdir
+mv qtx.zip myself.tar.bz2  文档
+
+作业 : 1. 今天的命令自己再熟悉
+
+
+
+
+
+
+
+
+
