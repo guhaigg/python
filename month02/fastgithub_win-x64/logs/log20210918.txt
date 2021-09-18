@@ -1,0 +1,1024 @@
+2021-09-18T08:55:03.7237003+08:00 [INF]
+FastGithub.ReverseProxy
+已监听https://127.0.0.1:443，https反向代理服务启动完成
+
+2021-09-18T08:55:03.7972732+08:00 [INF]
+FastGithub.ReverseProxy
+已监听http://127.0.0.1:80，http反向代理服务启动完成
+
+2021-09-18T08:55:03.8025119+08:00 [INF]
+FastGithub.ReverseProxy
+已监听ssh://127.0.0.1:22，github的ssh反向代理服务启动完成
+
+2021-09-18T08:55:05.3357367+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.0.0，访问https://github.com/dotnetcore/FastGithub关注新版本
+
+2021-09-18T08:57:14.5800221+08:00 [WRN]
+FastGithub.Dns.DnsInterceptor
+Header length too small
+
+2021-09-18T08:57:56.0247134+08:00 [INF]
+FastGithub.ReverseProxy
+已监听https://127.0.0.1:443，https反向代理服务启动完成
+
+2021-09-18T08:57:56.0920815+08:00 [INF]
+FastGithub.ReverseProxy
+已监听http://127.0.0.1:80，http反向代理服务启动完成
+
+2021-09-18T08:57:56.1009882+08:00 [INF]
+FastGithub.ReverseProxy
+已监听ssh://127.0.0.1:22，github的ssh反向代理服务启动完成
+
+2021-09-18T08:57:59.8171056+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.0.0，访问https://github.com/dotnetcore/FastGithub关注新版本
+
+2021-09-18T08:58:23.2967811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534): github.com->140.82.121.4
+
+2021-09-18T08:58:27.0445067+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider responded 200 in 4488.8481 ms
+
+2021-09-18T08:58:27.7032689+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534): avatars.githubusercontent.com->185.199.111.133
+
+2021-09-18T08:58:27.8186350+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/python-data-structure-cn/raw/master/mp1.png responded 302 in 473.7628 ms
+
+2021-09-18T08:58:28.9064465+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/show_partial responded 200 in 1295.5923 ms
+
+2021-09-18T08:58:28.9133540+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/overview_actions/master responded 200 in 1301.0734 ms
+
+2021-09-18T08:58:28.9283195+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/commit/42c9ff522d633b3ec09fd80992e61ef8cd484bf5/rollup responded 200 in 1314.4472 ms
+
+2021-09-18T08:58:28.9386584+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/contributors_list responded 304 in 1322.7982 ms
+
+2021-09-18T08:58:28.9782283+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/security/overall-count responded 200 in 1366.0717 ms
+
+2021-09-18T08:58:29.0090809+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/hovercards/citation/sidebar_partial responded 204 in 1394.8841 ms
+
+2021-09-18T08:58:29.0132247+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/code_menu_contents responded 200 in 1399.7125 ms
+
+2021-09-18T08:58:29.1527598+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/used_by_list responded 304 in 1538.1596 ms
+
+2021-09-18T08:58:29.5904829+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/20641704 responded 304 in 637.4951 ms
+
+2021-09-18T08:58:29.5973728+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/35571479 responded 304 in 644.4669 ms
+
+2021-09-18T08:58:29.5973728+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/4927218 responded 304 in 2348.7567 ms
+
+2021-09-18T08:58:29.8665444+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534): raw.githubusercontent.com->185.199.108.133
+
+2021-09-18T08:58:30.5741354+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/4598663 responded 304 in 1621.179 ms
+
+2021-09-18T08:58:30.8500859+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/30624750 responded 304 in 1897.3102 ms
+
+2021-09-18T08:58:32.5649356+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.5673411+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.6909473+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.6948423+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.6978104+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.7339302+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 5481.7219 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:32.8133248+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.8155257+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 5562.9625 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:32.8156801+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.8196929+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.9609699+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.9630165+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 5710.373 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:32.9646474+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.9667545+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:32.9770836+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/19553554 responded 304 in 4024.9339 ms
+
+2021-09-18T08:58:33.0811292+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:33.0833679+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-b3c5ce58.js responded 502 in 5830.4691 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:33.1054418+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/4927218 responded 304 in 4154.4886 ms
+
+2021-09-18T08:58:36.1920055+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/71473933 responded 304 in 8943.9417 ms
+
+2021-09-18T08:58:36.7755222+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/33931153 responded 304 in 7822.7011 ms
+
+2021-09-18T08:58:36.8122583+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/7625588 responded 304 in 7859.5037 ms
+
+2021-09-18T08:58:37.8535034+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/20507674 responded 304 in 8900.6393 ms
+
+2021-09-18T08:58:38.5473430+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/facert/python-data-structure-cn/master/mp1.png responded 200 in 9142.9103 ms
+
+2021-09-18T08:58:49.9834960+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/31881008 responded 502 in 21029.8552 ms
+System.Net.Http.HttpRequestException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 (185.199.111.133:443)
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.<CreateSocketsHttpHandler>b__7_0(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:49.9834955+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/42596173 responded 502 in 21029.8053 ms
+System.Net.Http.HttpRequestException: 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。 (185.199.111.133:443)
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|283_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.<CreateSocketsHttpHandler>b__7_0(SocketsHttpConnectionContext context, CancellationToken cancellationToken)
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(Func`3 callback, DnsEndPoint endPoint, HttpRequestMessage requestMessage, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:53.2477729+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/users/71473933/menu responded 200 in 932.079 ms
+
+2021-09-18T08:58:55.9594297+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:55.9648445+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.0704143+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.0733286+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 114.463 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:56.0737332+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.0784433+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.1861955+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.1894414+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 230.5903 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:56.1896662+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.1937874+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.3097869+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:56.3130179+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 236.8773 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:57.1056929+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.1134670+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.2398384+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.2428523+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 137.5248 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:57.2430748+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.2490418+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.3610774+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:58:57.3643603+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/webgl-globe-cda02a7c.js responded 502 in 251.5724 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:58:57.6037990+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 2287.6952 ms
+
+2021-09-18T08:58:58.1740908+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 516.8454 ms
+
+2021-09-18T08:58:58.1749310+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 517.5278 ms
+
+2021-09-18T08:58:58.2069869+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 549.7749 ms
+
+2021-09-18T08:58:58.6181376+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 438.2246 ms
+
+2021-09-18T08:58:59.2687693+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard-feed responded 200 in 1611.061 ms
+
+2021-09-18T08:59:10.3651743+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/users/71473933/menu responded 200 in 559.9453 ms
+
+2021-09-18T08:59:17.3248038+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.3284845+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.4361211+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.4375911+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 114.6124 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:17.4377740+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.4404116+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.5451376+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.5475140+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 224.2383 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:17.5477041+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.5509955+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.6711452+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.6724652+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 232.7102 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:17.6729843+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.6747623+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.7801630+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.7817265+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/webgl-globe-cda02a7c.js responded 502 in 197.6733 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:17.8569550+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 1087.9743 ms
+
+2021-09-18T08:59:17.8628618+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.8646119+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.9720637+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:17.9730989+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 111.7979 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:18.0076788+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:18.0094643+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:18.1162043+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:18.1179561+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.svg responded 502 in 110.7113 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:18.3181700+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 430.8592 ms
+
+2021-09-18T08:59:18.3241405+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 437.0854 ms
+
+2021-09-18T08:59:18.3459340+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard-feed responded 200 in 458.383 ms
+
+2021-09-18T08:59:18.3683869+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 480.9363 ms
+
+2021-09-18T08:59:18.7523637+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 430.5702 ms
+
+2021-09-18T08:59:20.1598291+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.1615979+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.2855211+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.2876731+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 128.6279 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:20.2879129+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.2905340+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.3957493+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.3975447+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 221.7149 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:20.4419717+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 848.9655 ms
+
+2021-09-18T08:59:20.4455747+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.4472634+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.5553337+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.5572175+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/webgl-globe-cda02a7c.js responded 502 in 112.0156 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:20.5574381+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.5599224+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.6667729+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.6688680+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 223.5504 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:20.6975823+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.6995170+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.8122880+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:20.8140524+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.svg responded 502 in 117.9763 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:20.8982136+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard-feed responded 200 in 438.2521 ms
+
+2021-09-18T08:59:20.8982987+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 439.1364 ms
+
+2021-09-18T08:59:20.8998483+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 440.547 ms
+
+2021-09-18T08:59:20.9458502+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/top_repositories responded 304 in 486.7007 ms
+
+2021-09-18T08:59:22.2598218+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 304 in 1357.7201 ms
+
+2021-09-18T08:59:25.7157507+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.7176461+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.8244897+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.8262919+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 110.9507 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:25.8265018+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.8285474+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.9350595+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.9369553+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 221.6215 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:25.9372402+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:25.9400854+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.0439080+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.0457089+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 314.2961 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:26.0460647+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.0485035+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.1628817+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.1646758+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-b3c5ce58.js responded 502 in 433.2056 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:26.2909932+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python responded 200 in 1560.7923 ms
+
+2021-09-18T08:59:26.3633071+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.3649713+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.4776421+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:26.4793897+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.svg responded 502 in 116.709 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:26.7722646+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/topic_suggestions responded 200 in 430.8755 ms
+
+2021-09-18T08:59:26.7790581+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/security/overall-count responded 200 in 440.166 ms
+
+2021-09-18T08:59:26.7850559+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/code_menu_contents responded 200 in 443.9862 ms
+
+2021-09-18T08:59:26.7889120+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/show_partial responded 200 in 449.8812 ms
+
+2021-09-18T08:59:26.8308988+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/tree-commit/37bc4c8cb8a39e9da21de3255f0e26bfe33e2a75 responded 304 in 489.8588 ms
+
+2021-09-18T08:59:26.8469490+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/used_by_list responded 304 in 504.3683 ms
+
+2021-09-18T08:59:27.3082325+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/commit/37bc4c8cb8a39e9da21de3255f0e26bfe33e2a75/rollup responded 200 in 465.4614 ms
+
+2021-09-18T08:59:27.3980616+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/file-list/main responded 304 in 1056.9849 ms
+
+2021-09-18T08:59:27.4323055+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/overview_actions/main responded 200 in 1093.2982 ms
+
+2021-09-18T08:59:27.5297038+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/guhaigg/python/hovercards/citation/sidebar_partial responded 204 in 1187.2078 ms
+
+2021-09-18T08:59:28.0129447+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534): avatars.githubusercontent.com->185.199.108.133
+
+2021-09-18T08:59:28.2198498+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/71473933 responded 304 in 1374.3953 ms
+
+2021-09-18T08:59:34.2100538+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)无法解析api.github.com：The operation was canceled.
+
+2021-09-18T08:59:34.7258956+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534): api.github.com->140.82.121.6
+
+2021-09-18T08:59:36.9539542+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 7749.2389 ms
+
+2021-09-18T08:59:46.2200230+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.2222198+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.3377695+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.3396650+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-e78f792bb4eb683743d2b5231fb828db.css responded 502 in 120.0315 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:46.3398903+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.3432735+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.4588003+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.4608527+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-b1d79387e53c968c672ee5a587985463.css responded 502 in 241.2295 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:46.4611665+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.4633501+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.5693680+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.5709780+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-5037de3b.js responded 502 in 222.1239 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:46.5711873+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.5737679+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.6962158+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:46.6982324+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-b3c5ce58.js responded 502 in 229.4676 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T08:59:46.7429661+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider responded 200 in 1465.9742 ms
+
+2021-09-18T08:59:47.2070258+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/42596173 responded 200 in 410.9226 ms
+
+2021-09-18T08:59:47.2230849+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/python-data-structure-cn/raw/master/mp1.png responded 302 in 427.4795 ms
+
+2021-09-18T08:59:47.3429497+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/show_partial responded 200 in 424.1094 ms
+
+2021-09-18T08:59:47.3809610+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/commit/42c9ff522d633b3ec09fd80992e61ef8cd484bf5/rollup responded 200 in 461.8783 ms
+
+2021-09-18T08:59:47.3870723+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/used_by_list responded 304 in 466.7891 ms
+
+2021-09-18T08:59:47.3968643+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/code_menu_contents responded 200 in 477.8105 ms
+
+2021-09-18T08:59:47.4371366+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/overview_actions/master responded 200 in 518.3998 ms
+
+2021-09-18T08:59:47.8577372+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.com/facert/awesome-spider/hovercards/citation/sidebar_partial responded 204 in 937.7818 ms
+
+2021-09-18T08:59:50.6037447+08:00 [INF]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/31881008 responded 200 in 3805.6121 ms
+
+2021-09-18T08:59:50.6140293+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:50.6163265+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(127.0.0.1:5534)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:50.7238838+08:00 [WRN]
+FastGithub.DomainResolve.DomainResolver
+dns(114.114.114.114:53)解析不到github.githubassets.com可用的ip解析
+
+2021-09-18T08:59:50.7255778+08:00 [ERR]
+FastGithub.ReverseProxy.RequestLoggingMiddleware
+GET https://github.githubassets.com/favicons/favicon.svg responded 502 in 111.9345 ms
+FastGithub.Configuration.FastGithubException: 当前解析不到github.githubassets.com可用的ip，请刷新重试
+   at FastGithub.DomainResolve.DomainResolver.ResolveCoreAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.DomainResolve.DomainResolver.ResolveAsync(DnsEndPoint domain, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.ProcessRequestAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at FastGithub.Http.HttpClientHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Yarp.ReverseProxy.Forwarder.HttpForwarder.SendAsync(HttpContext context, String destinationPrefix, HttpMessageInvoker httpClient, ForwarderRequestConfig requestConfig, HttpTransformer transformer)
+
+2021-09-18T09:00:19.4369418+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub止停止运行
+
